@@ -1,0 +1,64 @@
+legend {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  background-image: url(Img/fondo.png);
+  font-weight: bold;
+  text-align: center;
+}
+body {
+  width: auto;
+  height: max-content;
+}
+#wrapper {
+  background: url("Img/5.jpg");
+  width: auto;
+  height: 800px;
+}
+#button {
+  position: relative;
+  left: 0px;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(
+    rgba(50, 50, 50, 0.5),
+    rgba(50, 50, 50, 0.75),
+    rgb(50, 50, 50)
+  );
+  font-weight: bold;
+  font-size: 400%;
+  text-align: center;
+  color: blue;
+}
+
+#button1 {
+  position: relative;
+  left: 94%;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(
+    rgba(50, 50, 50, 0.5),
+    rgba(50, 50, 50, 0.75),
+    rgb(50, 50, 50)
+  );
+  font-weight: bold;
+  font-size: 400%;
+  text-align: center;
+  color: blue;
+}
+
+#inicio {
+  position: relative;
+  left: 40px;
+  top: -50px;
+  width: 94%;
+  height: 70px;
+  background: linear-gradient(
+    rgba(50, 50, 50, 0.5),
+    rgba(50, 50, 50, 0.75),
+    rgb(50, 50, 50)
+  );
+  font-weight: bold;
+  font-size: 400%;
+  text-align: center;
+  color: blue;
+}

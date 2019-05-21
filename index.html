@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>GALERIA</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script type="text/javascript" src="validaciones.js"></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="metodos.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+  </head>
 
-<body>
-    <legend>LAS 50 MEJORES FOTOS DEL 2018 SEGUN NATIONAL GEOGRAPHIC</legend>
-
-</body>
-
+  <body>
+    <legend>LAS 10 MEJORES FOTOS DEL 2018 SEGUN NATIONAL GEOGRAPHIC</legend>
+    <div id="wrapper">
+      <input type="button" value="<" id="button" onclick="anterior()" />
+      <input type="button" value=">" id="button1" onclick="siguiente()" />
+      <input type="button" value="INICIO" id="inicio" onclick="aletorio()" />
+    </div>
+  </body>
 </html>
