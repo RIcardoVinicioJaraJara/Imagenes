@@ -3,19 +3,17 @@ var lista5 = new Array();
 var i = 0;
 aletorio();
 function siguiente() {
+  i = i + 1;
   i > 4 ? (i = 0) : (i = i);
   var img = document.getElementById("wrapper");
   img.style = "background:url('Img/" + lista5[i] + ".jpg')";
-  i = i + 1;
-  console.log(lista5 + " " + lista5[i]);
 }
 
 function anterior() {
+  i = i - 1;
   i < 0 ? (i = 4) : (i = i);
   var img = document.getElementById("wrapper");
   img.style = "background:url('Img/" + lista5[i] + ".jpg')";
-  i = i - 1;
-  console.log(lista5 + " " + lista5[i]);
 }
 
 function aletorio() {
@@ -31,6 +29,7 @@ function aletorio() {
     lista5[index] = myArray[index];
   }
   i = 1;
-  var img = (document.getElementById("wrapper").style =
-    "background:url('Img/" + lista5[0] + ".jpg')");
+  console.log(lista5);
+  document.getElementById("wrapper").style =
+    "background:url('Img/" + lista5[0] + ".jpg')";
 }
